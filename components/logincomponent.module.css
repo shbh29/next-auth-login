@@ -1,0 +1,7 @@
+.center {
+    position:absolute;
+    top: 35%;
+    left: 40%;
+    border-style: dotted;
+    padding: 2rem;
+}

@@ -21,7 +21,7 @@ export default function Header() {
                 <span className={styles.notSignedInText}>
                   You are not signed in
                 </span>
-                <a href={`/api/auth/signin`} className={styles.buttonPrimary}
+                <a href='/api/auth/signin' className={styles.buttonPrimary}
                   onClick={(e) => {
                     e.preventDefault();
                     signIn();
